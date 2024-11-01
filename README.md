@@ -1,0 +1,1 @@
+We run ffmpeg version 2024-09-26-git-f43916e217-full_build-www.gyan.dev built with gcc 13.2.0 (Rev5, Built by MSYS2 project) in our PCs. Make sure you have ffmpeg added to PATH at environment variables.
