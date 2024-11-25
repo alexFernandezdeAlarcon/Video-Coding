@@ -19,4 +19,4 @@ RUN apt-get update && apt-get install -y \
 
 COPY ./app /code/app
 
-CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "80"]
+CMD ["fastapi", "run", "app/main.py", "--port", "80"]

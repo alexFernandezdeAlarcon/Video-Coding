@@ -7,13 +7,13 @@ router = APIRouter()
 
 @router.post("/resize_images/")
 async def resize_image(file: UploadFile = File(...), orientation: str = Form(..., 
-        description="Orientación de la imagen: 'h' para horizontal, 'v' para vertical",
+        description="Image orientation: Type 'h' for horizontal, 'v' for vertical",
         example="h"
     )):
     """
-    Redimensiona una imagen recibida.
-    - `file`: Archivo de imagen subido por el usuario.
-    - `orientation`: Orientación de la imagen, 'h' para horizontal, 'v' para vertical.
+    Resize a given image to SD (480x640/640x480).
+    - `file`: Image provided by the user.
+    - `orientation`: Image orientation: Type 'h' for horizontal, 'v' for vertical.
     """
 
     # Verifica la orientación
