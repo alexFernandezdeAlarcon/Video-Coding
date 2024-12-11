@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+h2 {
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#video-form {
+    max-width: 500px;
+    margin: auto;
+}
+
+#loading {
+    text-align: center;
+}
+
+#response {
+    margin-top: 20px;
+}
